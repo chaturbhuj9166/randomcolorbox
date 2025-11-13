@@ -1,0 +1,115 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Main container */
+.main {
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  background-color: #7b61ff;
+}
+
+/* Input + button container */
+.first {
+  background: #ffffffb3;
+  padding: 20px 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.textarea:focus {
+  border-color: #7b61ff;
+  box-shadow: 0 0 5px rgba(123, 97, 255, 0.4);
+}
+
+input[type="color"] {
+  margin-top: 10px;
+  width: 50px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.add {
+  margin-top: 15px;
+  background: #7b61ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.add:hover {
+  background: #6544ff;
+}
+
+/* Notes section */
+.second {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.second h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.second ul {
+  list-style: none;
+}
+
+.second li {
+  background: #f3f3f3;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.second li:hover {
+  background: #e6e6e6;
+  transform: scale(1.02);
+}
